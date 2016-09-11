@@ -34,7 +34,7 @@
 
 
 export async function reimportModule(path){
-	console.log('reimporting', path)
+	// console.log('reimporting', path)
 	var old_module = await unloadedModule(path)
 
 	// this is the real meaty bit
@@ -48,7 +48,7 @@ export async function reimportModule(path){
 }
 
 export async function refreshModule(path){
-	console.log('refreshing', path)
+	// console.log('refreshing', path)
 	var old_module = cloneModule(await unloadedModule(path))
 
 	var record = System._loader.moduleRecords[path]
@@ -88,8 +88,7 @@ async function bubbleModule(path){
 
 
 async function bubbleRender(path){
-	console.log('bubble', path)
-
+	// console.log('bubble', path)
 	let mod = System.get(path)
 	
 	if(mod.__render){

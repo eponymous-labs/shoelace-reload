@@ -1,5 +1,5 @@
 import socketIO from 'socket.io-client'
-import { reimportModule } from './build.js'
+import { reimportModule } from './reload.js'
 
 const backendUrl = '' // same URL
 let socket = socketIO(backendUrl)
