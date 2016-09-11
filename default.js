@@ -5,7 +5,7 @@ const backendUrl = '' // same URL
 let socket = socketIO(backendUrl)
 
 socket.on('connect', () => {
-    console.log('hot reload connected')
+    // console.log('hot reload connected')
     socket.emit('identification', navigator.userAgent)
     // socket.emit('package.json', function (pjson) {
     //     // console.log('stuff', pjson)
