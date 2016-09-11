@@ -10,6 +10,6 @@
   "license": "MIT",
   "registry": "github",
   "dependencies": {
-    "socket.io-client": "npm:socket.io-client@^1.4.8"
+    "socket.io-client": "github:socketio/socket.io-client@1.4.8"
   }
 }
