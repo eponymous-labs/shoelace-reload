@@ -7,8 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "registry": "github",
   "dependencies": {
-    "socket.io-client": "^1.4.8"
+    "socket.io-client": "npm:socket.io-client@^1.4.8"
   }
 }
